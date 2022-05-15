@@ -1,0 +1,20 @@
+:root
+{
+    --color-main: #FFFFFF;
+    --color-secondary: #000000;
+    
+    --color-red-main: #D60223;
+    --color-red-mid: #F89284;
+    --color-red-light: #FFBEBE;
+    
+    --color-brown-light: #EBD5D2;
+
+    --color-blue-main: #0271F7;
+    --color-blue-mid: #D3FFFF;
+    --color-blue-light: #8FBFF8;
+
+    --color-purple-light: #C2C2F1;
+
+    --color-title: #F77A2C;
+    --color-title-light: #FAEFD8;
+}

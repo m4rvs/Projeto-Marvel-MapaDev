@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Select - MapaDev</title>
+    <link rel="stylesheet" href="./src/css/variables.css" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/fonts.css" />
+    <link rel="stylesheet" href="./src/css/animations.css" />
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+</head>
+<body>
+    <main>
+        <header class="header">
+            <h1 class="title">
+                Character Select
+            </h1>
+        </header>
+        <div class="character-selection">
+            <div class="big-character player-1-character">
+                <img src="./src/images/thor.png" alt="character selected player 1" id="player-1-image">
+                <div class="character-name">
+                    <h2 id="player-1-name">
+                        Thor
+                    </h2>
+                </div>
+            </div>
+            <ul class="character-list">
+                <li class="character player-1-selected" id="thor" data-name="Thor">
+                    <span class="tag">1P</span>
+                    <img src="./src/images/thor.jpg" alt="Thor">
+                </li>
+                <li class="character" id="iron-man" data-name="Iron Man">
+                    <span class="tag">1P</span>
+                    <img src="./src/images/iron-man.jpg" alt="Iron Man">
+                </li>
+                <li class="character" id="black-widow" data-name="Black Widow">
+                    <span class="tag">1P</span>
+                    <img src="./src/images/black-widow.jpg" alt="Black Widow">
+                </li>
+                <li class="character" id="hulk" data-name="Hulk">
+                    <span class="tag">1P</span>
+                    <img src="./src/images/hulk.jpg" alt="Hulk">
+                </li>
+                <li class="character" id="captain-america" data-name="Captain America">
+                    <span class="tag">1P</span>
+                    <img src="./src/images/captain-america.jpg" alt="Captain America">
+                </li>
+                <li class="character player-2-selected" id="ultron" data-name="Ultron">
+                    <span class="tag">2P</span>
+                    <img src="./src/images/ultron.jpg" alt="Ultron">
+                </li>
+                <li class="character" id="doctor-doom" data-name="Doctor Doom">
+                    <span class="tag">1P</span>
+                    <img src="./src/images/doctor-doom.jpg" alt="Doctor Doom">
+                </li>
+                <li class="character" id="nova" data-name="Nova">
+                    <span class="tag">1P</span>
+                    <img src="./src/images/nova.jpg" alt="Nova">
+                </li>
+                <li class="character" id="phoenix" data-name="Phoenix">
+                    <span class="tag">1P</span>
+                    <img src="./src/images/phoenix.jpg" alt="Phoenix">
+                </li>
+            </ul>
+            <div class="big-character player-2-character">
+                <img src="./src/images/ultron.png" alt="character selected player 2" id="player-2-image">
+                <div class="character-name">
+                    <h2>
+                        Ultron
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/index.js">
+    </script>
+</body>
+</html>
